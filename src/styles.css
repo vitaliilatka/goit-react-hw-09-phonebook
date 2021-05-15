@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  color: #2a2a2a;
+  line-height: 1.5;
+  padding: 0 10px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Navlink {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  color: black;
+  transition: all 200ms ease-in-out;
+}
+
+.Navlink:hover {
+  border-color: rgb(0, 102, 255);
+}
+
+.Navlink:not(:last-child) {
+  margin-right: 15px;
+}
+
+.Navlink--active {
+  background-color: rgb(245, 160, 3);
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.form > label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form input {
+  width: 200px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.form > button {
+  padding: 5px;
+  width: 120px;
+  background-color: rgb(136, 195, 243);
+  border: 2px solid rgb(85, 167, 235);
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+}
+
+.form > button:hover {
+  transform: scale(1.2);
+  background-color: rgb(87, 174, 245);
+}
+
+.homapage-title {
+  text-align: center;
+}
+
+/* .Container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  padding: 50px;
+}
+.Section {
+  margin: 0 auto 20px;
+  max-width: 500px;
+  background-color: rgb(65, 189, 226);
+  border-radius: 10px;
+  padding: 0 30px 30px;
+} */
